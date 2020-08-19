@@ -1,0 +1,62 @@
+body {
+    background-color:white;
+    font-family:sans-serif ;
+    font-weight: bold;
+    content: inherit;
+}
+.nav bar{
+    display: inline-flex;
+    justify-content: space-between;
+    padding:0px;
+    background-color:floralwhite;
+}
+.nav bar li{
+    display:inline:
+    padding:0px;
+    cursor: pointer;
+}
+#addvideo,#grid,#bell,#user{
+    float:top-left;
+    width: 25px;
+    height:20px;
+}
+#left,#right{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.center{
+    width: 1000px;
+    margin: auto;
+}
+#search-icon{
+    float;center;
+    position: relative;
+    left:1000px;
+}
+#side-bar{
+    position:absolute;
+    top:10px;
+    right: 10px;
+    width: 370px;
+    height:475px;
+    background-color: white;
+}
+.section video{
+    float: left;
+    width:560px;
+    height:315px;
+}
+side-videos{
+    float:left;
+    padding:0px;
+    margin:0px;
+    object-fit:cover;
+}
+#image{
+    width: 75px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
